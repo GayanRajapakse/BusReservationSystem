@@ -1,0 +1,72 @@
+
+insert into OWNER values(755424582,'Saman Dasanayaka','Urapola,Pilimathalawa.',0715785412,'m','1975-01-25');
+insert into OWNER values(795888882,'Nihan Gunasinghe','Aladeniya',0772346512,'m','1979-03-23');
+insert into OWNER values(753568985,'Pasan Bagya','Theldeniya',0712548877,'m','1975-01-25');
+insert into OWNER values(801425782,'Wathsala Nadeshan','Samagi Rd.,Kadugannawa',0781122458,'m','1980-08-15');
+insert into OWNER values(785411248,'Hirantha Silva','Buwelikada,Kandy.',0777885544,'m','1978-05-02');
+insert into OWNER values(702430303,'Pathum Nirmal','Kundasala,Kandy.',0713002548,'m','1970-11-29');
+insert into OWNER values(751472582,'Sanka Sumadura','Gampala.',0782225154,'m','1975-04-04');
+insert into OWNER values(720214577,'Chamal Rumesh','Peradeniya.',0710365895,'m','1972-09-05');
+
+
+insert into BUS values(10001,755424582,44,'non-AC');
+insert into bus values(10002,755424582,48,'non-AC');
+insert into bus values(10003,755424582,38,'AC');
+insert into bus values(10004,795888882,44,'non-AC');
+insert into bus values(10005,753568985,48,'non-AC');
+insert into bus values(10006,801425782,44,'non-AC');
+insert into bus values(10007,801425782,48,'non-AC');
+insert into bus values(10008,785411248,44,'non-AC');
+insert into bus values(10009,702430303,44,'non-AC');
+insert into bus values(10010,702430303,44,'non-AC');
+insert into bus values(10011,702430303,48,'non-AC');
+insert into bus values(10012,702430303,38,'AC');
+insert into bus values(10013,751472582,44,'non-AC');
+insert into bus values(10014,720214577,44,'non-AC');
+insert into bus values(10015,720214577,44,'non-AC');
+
+
+insert into ROUTE values(1,'Kandy','Colombo',150,114,'3:40');
+insert into ROUTE values(2,'Kandy','Kegalle',50,37,'1:15');
+insert into ROUTE values(3,'Kandy','Gampaha',120,90,'3:00');
+insert into ROUTE values(4,'Kandy','Kadawatha',135,105,'3:20');
+insert into ROUTE values(5,'Kandy','Kurunegala',40,65,'1:30');
+insert into ROUTE values(6,'Kandy','Kelaniya',140,110,'3:25');
+insert into ROUTE values(7,'Kandy','Mawathagma',30,50,'1:00');
+
+
+insert into TIMESLOT values(1,'2014-09-19','8:00',10001,1);
+insert into TIMESLOT values(2,'2014-09-19','8:30',10002,1);
+insert into TIMESLOT values(3,'2014-09-19','8:00',10003,1);
+insert into TIMESLOT values(4,'2014-09-19','8:00',10004,5);
+insert into TIMESLOT values(5,'2014-09-19','8:30',10005,5);
+insert into TIMESLOT values(6,'2014-09-19','9:00',10006,1);
+insert into TIMESLOT values(7,'2014-09-19','9:30',10007,1);
+insert into TIMESLOT values(8,'2014-09-20','8:00',10008,1);
+insert into TIMESLOT values(9,'2014-09-20','8:30',10009,1);
+insert into TIMESLOT values(10,'2014-09-20','8:00',10010,5);
+insert into TIMESLOT values(11,'2014-09-20','8:30',10011,5);
+insert into TIMESLOT values(12,'2014-09-20','9:00',10001,1);
+
+
+insert into SUBROUTE values(1,1);
+insert into SUBROUTE values(1,2);
+insert into SUBROUTE values(1,3);
+insert into SUBROUTE values(1,4);
+insert into SUBROUTE values(1,6);
+insert into SUBROUTE values(5,5);
+insert into SUBROUTE values(5,7);
+
+
+insert into CUSTOMER values(922261167,'Prabath Amila','Peradeniya',0715719541,'m','1992-08-13');
+insert into CUSTOMER values(802152185,'Saman Silva','Kandy',0778548412,'m','1980-05-23');
+
+
+insert into RESERVATION values(1,922261167,1,'2014-09-14',135,'521321');
+insert into RESERVATION values(1,922261167,2,'2014-09-14',135,'521321');
+insert into RESERVATION values(1,922261167,3,'2014-09-14',135,'521321');
+insert into RESERVATION values(1,922261167,4,'2014-09-14',135,'521321');
+
+insert into ADMINACCOUNT values('gayan','123');
+
+
